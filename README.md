@@ -1,34 +1,52 @@
-<<<<<<< HEAD
+# Let-stalk
+>>>>>>> origin/main
+# Let's Talk - MERN Chat Application
 
-# Talk-A-Tive
+Let's Talk is a Full Stack Real-time Chatting Application built with the MERN stack. It uses Socket.io for real-time communication and stores user details securely in MongoDB.
 
-Talk-a-tive is a Full Stack Chatting App.
-Uses Socket.io for real time communication and stores user details in encrypted format in Mongo DB Database.
 ## Tech Stack
 
 **Client:** React JS
 
 **Server:** Node JS, Express JS
 
-**Database:** Mongo DB
-  
-## Demo
+**Database:** MongoDB
 
-[https://talk-a-tive.herokuapp.com/](https://talk-a-tive-7fgq.onrender.com)
+## Features
 
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/group%20%2B%20notif.PNG)
+### Authentication
+- User signup and login
+- JWT token-based authentication
+- Secure password hashing
+
+### Real-time Communication
+- Instant messaging with Socket.io
+- Typing indicators
+- Online/offline status
+
+### Chat Features
+- One-to-one private chats
+- Group chat creation
+- Search users functionality
+- Add/remove users from groups
+- User profile viewing
+
+### Notifications
+- Real-time message notifications
+- Group chat notifications
+
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/piyush-eon/mern-chat-app
+  git clone https://github.com/Rishu1724/Let-stalk.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd mern-chat-app
+  cd Let-stalk
 ```
 
 Install dependencies
@@ -42,44 +60,39 @@ Install dependencies
   npm install
 ```
 
+Set up environment variables:
+- Create `.env` file in backend directory
+- Add your MongoDB URI and PORT
+
 Start the server
 
 ```bash
-  npm run start
+  npm run server
 ```
+
 Start the Client
 
 ```bash
-  //open now terminal
+  //open new terminal
   cd frontend
   npm start
 ```
 
-  
-# Features
+## Environment Variables
 
-### Authenticaton
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/login.PNG)
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/signup.PNG)
-### Real Time Chatting with Typing indicators
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/real-time.PNG)
-### One to One chat
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/mainscreen.PNG)
-### Search Users
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/search.PNG)
-### Create Group Chats
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/new%20grp.PNG)
-### Notifications 
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/group%20%2B%20notif.PNG)
-### Add or Remove users from group
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/add%20rem.PNG)
-### View Other user Profile
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/profile.PNG)
-## Made By
+Create a `.env` file in the backend directory with:
 
-- [@Piyush-eon](https://github.com/piyush-eon)
+```
+MONGO_URI=your_mongodb_connection_string
+PORT=8080
+JWT_SECRET=your_jwt_secret
+```
 
-  
+## Author
+
+**Rishu Kumar**
+
+[GitHub Profile](https://github.com/Rishu1724)
 =======
 # Let-stalk
 >>>>>>> origin/main
